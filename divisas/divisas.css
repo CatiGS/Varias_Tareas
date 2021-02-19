@@ -1,0 +1,180 @@
+            * {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                /* line-height: 17px;*/
+                color: #000000;
+            }
+            
+            body {
+                clear: both;
+                position: relative;
+                margin: 0 auto;
+                width: 100%;
+                height: 100%;
+            }
+            
+            #titulo {
+                position: relative;
+                margin: 0 auto;
+                width: 340px;
+                text-align: center;
+            }
+            
+            h1 {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 25px;
+                text-align: center;
+            }
+            
+            #caja {
+                position: relative;
+                margin: 0 auto;
+                width: 340px;
+                text-align: right;
+            }
+            
+            #form {
+                clear: both;
+                position: relative;
+                margin: 0 auto;
+                width: 340px;
+                height: 220px;
+            }
+            /* Importe */
+            
+            #importeText {
+                position: absolute;
+                left: 0.29%;
+                right: 87.06%;
+                top: 0%;
+                bottom: 92.73%;
+                width: 44px;
+                height: 16px;
+                color: #000000;
+            }
+            /* Rectangle 1 */
+            
+            #importeRect {
+                position: absolute;
+                left: 0%;
+                right: 0%;
+                padding-right: 3%;
+                top: 11.36%;
+                bottom: 73.18%;
+                width: 328px;
+                height: 34px;
+                background: #C4C4C4;
+                border: 0px;
+                border-radius: 10px;
+                text-align: right;
+            }
+            /* Rectangle 4 */
+            
+            #botonCalcular {
+                position: absolute;
+                left: 0.29%;
+                right: 0%;
+                top: 67.82%;
+                bottom: 0%;
+                width: 339px;
+                height: 29px;
+                background: #5156DC;
+                border: 0;
+                background: url(img/BotonCalcular.PNG);
+            }
+            /* Rectangle 2 */
+            
+            #inputDe {
+                position: absolute;
+                left: 0%;
+                right: 59.71%;
+                top: 40%;
+                bottom: 29.55%;
+                width: 137px;
+                height: 34px;
+                background: #C4C4C4;
+                border-radius: 10px;
+            }
+            /* Rectangle 3 */
+            
+            #inputA {
+                position: absolute;
+                left: 61.47%;
+                right: 0.29%;
+                top: 40%;
+                bottom: 29.55%;
+                width: 130px;
+                height: 34px;
+                background: #C4C4C4;
+                border-radius: 10px;
+            }
+            /* De: */
+            
+            #tagDe {
+                position: absolute;
+                left: 0.29%;
+                right: 82.35%;
+                top: 31.18%;
+                bottom: 53.18%;
+                width: 60px;
+                height: 19px;
+                color: #000000;
+            }
+            /* a */
+            
+            #tagA {
+                position: absolute;
+                left: 61.47%;
+                right: 36.47%;
+                top: 31.18%;
+                bottom: 55.91%;
+                width: 7px;
+                height: 14px;
+            }
+            /* identical to box height */
+            /* color: #000000;*/
+            /* Ellipse 1 */
+            
+            #botonConvertir {
+                position: absolute;
+                left: 43.82%;
+                right: 43.82%;
+                top: 40%;
+                bottom: 31.82%;
+                width: 42px;
+                height: 29px;
+                background: url(img/BotonConvertir.PNG);
+                border: 0;
+            }
+            
+            a {
+                clear: both;
+                float: right;
+            }
+            
+            #resultadoText {
+                position: absolute;
+                left: 0.29%;
+                right: 0%;
+                top: 82.82%;
+                width: 44px;
+                height: 16px;
+                color: #000000;
+            }
+            
+            #resultado {
+                position: absolute;
+                margin: 0 auto;
+                left: 0.29%;
+                right: 0%;
+                top: 92.82%;
+                bottom: 0%;
+                width: 335px;
+                height: 80px;
+                border-radius: 10px;
+            }

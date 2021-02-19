@@ -1,0 +1,63 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
+
+body {
+    clear: both;
+    position: relative;
+    margin: 0 auto;
+    width: 384px;
+    height: 455px;
+}
+
+#caja {
+    position: relative;
+    margin: 0 auto;
+    width: 384px;
+    text-align: right;
+    bottom: 0px;
+}
+
+#titulo {
+    position: relative;
+    margin: 0 auto;
+    top: 0%;
+    width: 340px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#autonomo {
+    position: absolute;
+    margin: 0 auto;
+    left: 0%;
+    right: 0%;
+    top: 20%;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+
+#pulsador {
+    width: 160px;
+    height: 160px;
+    background: url(img/pulsador.jpg);
+}
+
+#Horas,
+#Minutos,
+#Segundos {
+    font-size: 8rem;
+}

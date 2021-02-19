@@ -1,0 +1,298 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
+
+body {
+    clear: both;
+    position: relative;
+    margin: 0 auto;
+    width: 384px;
+    height: 455px;
+}
+
+#caja {
+    position: relative;
+    margin: 0 auto;
+    width: 384px;
+    text-align: right;
+    bottom: 0px;
+}
+
+#titulo {
+    position: relative;
+    margin: 0 auto;
+    top: 0%;
+    width: 340px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+/* Calculadora */
+
+#Calculadora {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 20%;
+    bottom: 0%;
+    background: #155DC9;
+    background: url(img/calculadora.PNG);
+}
+
+
+/* pantalla */
+
+#pantalla {
+    position: absolute;
+    left: 16.15%;
+    right: 16.15%;
+    top: 12.31%;
+    bottom: 72.31%;
+    background: #C4C4C4;
+    background: url(img/pantalla.PNG);
+    padding-top: 15px;
+    padding-right: 2px;
+    text-align: right;
+    vertical-align: bottom;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+
+/* boton0 */
+
+#boton_0 {
+    position: absolute;
+    left: 16.15%;
+    right: 73.96%;
+    top: 73.63%;
+    bottom: 21.1%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton0.PNG);
+}
+
+
+/* boton1 */
+
+#boton_1 {
+    position: absolute;
+    left: 16.15%;
+    right: 73.96%;
+    top: 62.2%;
+    bottom: 32.53%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton1.PNG);
+}
+
+
+/* boton2 */
+
+#boton_2 {
+    position: absolute;
+    left: 35.42%;
+    right: 54.69%;
+    top: 61.98%;
+    bottom: 32.75%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton2.PNG);
+}
+
+
+/* boton3 */
+
+#boton_3 {
+    position: absolute;
+    left: 54.69%;
+    right: 35.42%;
+    top: 62.2%;
+    bottom: 32.53%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton3.PNG);
+}
+
+
+/* boton4 */
+
+#boton_4 {
+    position: absolute;
+    left: 16.15%;
+    right: 73.96%;
+    top: 49.89%;
+    bottom: 44.84%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton4.PNG);
+}
+
+
+/* boton5 */
+
+#boton_5 {
+    position: absolute;
+    left: 35.42%;
+    right: 54.69%;
+    top: 49.89%;
+    bottom: 44.84%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton5.PNG);
+}
+
+
+/* boton6 */
+
+#boton_6 {
+    position: absolute;
+    left: 54.69%;
+    right: 35.42%;
+    top: 50.11%;
+    bottom: 44.62%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton6.PNG);
+}
+
+
+/* boton7 */
+
+#boton_7 {
+    position: absolute;
+    left: 16.15%;
+    right: 73.96%;
+    top: 38.46%;
+    bottom: 56.26%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton7.PNG);
+}
+
+
+/* boton8 */
+
+#boton_8 {
+    position: absolute;
+    left: 35.42%;
+    right: 54.69%;
+    top: 38.46%;
+    bottom: 56.26%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton8.PNG);
+}
+
+
+/* boton9 */
+
+#boton_9 {
+    position: absolute;
+    left: 54.69%;
+    right: 35.42%;
+    top: 38.46%;
+    bottom: 56.26%;
+    width: 38px;
+    height: 24px;
+    background: url(img/boton9.PNG);
+}
+
+
+/* botonC */
+
+#boton_C {
+    position: absolute;
+    left: 73.96%;
+    right: 16.15%;
+    top: 38.68%;
+    bottom: 56.04%;
+    width: 38px;
+    height: 24px;
+    background: url(img/botonC.PNG);
+}
+
+
+/* botonIgual */
+
+#boton_Igual {
+    position: absolute;
+    left: 73.96%;
+    right: 16.15%;
+    top: 49.89%;
+    bottom: 44.84%;
+    width: 38px;
+    height: 24px;
+    background: url(img/botonIgual.PNG);
+}
+
+
+/* botonSuma */
+
+#boton_Suma {
+    position: absolute;
+    left: 73.96%;
+    right: 16.15%;
+    top: 62.42%;
+    bottom: 32.31%;
+    width: 38px;
+    height: 24px;
+    background: url(img/botonSuma.PNG);
+}
+
+
+/* botonResta */
+
+#boton_Resta {
+    position: absolute;
+    left: 73.96%;
+    right: 16.15%;
+    top: 73.63%;
+    bottom: 21.1%;
+    width: 38px;
+    height: 24px;
+    background: url(img/botonResta.PNG);
+}
+
+
+/* botonMult */
+
+#boton_Mult {
+    position: absolute;
+    left: 54.95%;
+    right: 35.16%;
+    top: 73.85%;
+    bottom: 20.88%;
+    width: 38px;
+    height: 24px;
+    background: url(img/botonMult.PNG);
+}
+
+
+/* botonDiv */
+
+#boton_Div {
+    position: absolute;
+    left: 35.68%;
+    right: 54.43%;
+    top: 73.63%;
+    bottom: 21.1%;
+    width: 38px;
+    height: 24px;
+    background: url(img/botonDiv.PNG);
+}

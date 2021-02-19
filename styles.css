@@ -1,0 +1,81 @@
+                                            /* VariasTareas */
+                                            
+                                            body {
+                                                position: relative;
+                                                /* width: 808px;*/
+                                                margin: 0 auto;
+                                                width: 80%;
+                                                height: 526px;
+                                                background: #C4C4C4;
+                                            }
+                                            /* Varias Tareas */
+                                            
+                                            #variasTareas {
+                                                position: absolute;
+                                                width: 100%;
+                                                left: 0%;
+                                                right: 0%;
+                                                top: 0%;
+                                                bottom: 0%;
+                                                background: #C4C4C4;
+                                            }
+                                            
+                                            #variasTareasTexto {
+                                                position: absolute;
+                                                width: 100%;
+                                                left: 3%;
+                                                right: 17%;
+                                                top: 0.99%;
+                                                bottom: 88.88%;
+                                                font-family: Roboto;
+                                                font-style: normal;
+                                                font-weight: bold;
+                                                font-size: 20px;
+                                                line-height: 25px;
+                                                text-align: center;
+                                                color: #1B17DC;
+                                            }
+                                            /* Divisas */
+                                            
+                                            #divisas,
+                                            #zombies,
+                                            #autonomo,
+                                            #calculadora {
+                                                position: absolute;
+                                                /* width: 260px;*/
+                                                width: 20%;
+                                                height: 209px;
+                                                background: rgba(37, 114, 230, 0.22);
+                                            }
+                                            
+                                            #zombies {
+                                                left: 55%;
+                                                right: 14.48%;
+                                                top: 18%;
+                                                bottom: 44.49%;
+                                                background: url(img/Zombies.PNG);
+                                            }
+                                            
+                                            #divisas {
+                                                left: 30%;
+                                                right: 51.61%;
+                                                top: 18%;
+                                                bottom: 44.49%;
+                                                background: url(img/Divisas.PNG);
+                                            }
+                                            
+                                            #autonomo {
+                                                left: 55%;
+                                                right: 14.48%;
+                                                top: 60%;
+                                                bottom: 3.23%;
+                                                background: url(img/Autonomo.PNG);
+                                            }
+                                            
+                                            #calculadora {
+                                                left: 30%;
+                                                right: 51.61%;
+                                                top: 60%;
+                                                bottom: 3.23%;
+                                                background: url(img/Calculadora.PNG);
+                                            }

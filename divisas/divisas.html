@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divisas</title>
+    <link rel="stylesheet" href="divisas.css">
+</head>
+
+<body>
+    <div id="caja">
+        <a href=" ..\index.html ">
+            <img src="..\img\menu.jpg" id="volverMenu" width="11%" title="Regresar al menu"></a><br>
+    </div>
+    <div id="titulo">
+        <h1>Divisas</h1>
+    </div>
+    <div id="form">
+
+        <label id="importeText">Importe</label>
+        <input id="importeRect" type="number " value=0 />
+        <label id="tagDe">De</label>
+        <label id="tagA">A</label>
+        <select id="inputDe"><option value='eur'>EUR</option><option value='usd'>USD</option></select>
+        <select id="inputA"><option value='usd'>USD</option><option value='eur'>EUR</option></select>
+        <button id="botonConvertir"></button>
+        <button id="botonCalcular"></button>
+
+        <label id="resultadoText">Resultado</label>
+        <textarea id="resultado"></textarea>
+
+    </div>
+
+    <br>
+
+    <script src="divisas.js "></script>
+</body>
+
+</html>
