@@ -13,7 +13,7 @@ Segundos.innerHTML = ":00"
 Minutos.innerHTML = ":00"
 Horas.innerHTML = "00"
 
-function cronometro() {
+const cronometro = () => {
 
     if (centesimas == 0) {
         segundos++;
@@ -39,21 +39,20 @@ function cronometro() {
 }
 
 
-function parar(control) {
-    clearInterval(control);
+const parar = (control) => {
+    clearInterval(control)
 
 }
 
-function reinicio(control) {
-    clearInterval(control);
+const reinicio = (control) => {
+    clearInterval(control)
+    segundos = 0
+    minutos = 0
+    horas = 0
 
-    segundos = 0;
-    minutos = 0;
-    horas = 0;
-
-    Segundos.innerHTML = ":00";
-    Minutos.innerHTML = ":00";
-    Horas.innerHTML = "00";
+    Segundos.innerHTML = ":00"
+    Minutos.innerHTML = ":00"
+    Horas.innerHTML = "00"
 
 }
 
